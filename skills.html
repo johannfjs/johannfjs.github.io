@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detailed Skills - Johann Jara Sanchez</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --midnight-blue: #1A2E47;
+            --smoke-grey: #C9CDD4;
+            --tech-blue: #69C4E3;
+            --white: #FFFFFF;
+            --coral: #FF7F5F;
+            --text-dark: #2c3e50;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--white);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--tech-blue);
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--coral);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            background-color: var(--midnight-blue);
+            color: var(--white);
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        header h2 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: var(--smoke-grey);
+            margin-bottom: 20px;
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .page-header h1 {
+            color: var(--midnight-blue);
+            font-size: 2.2rem;
+        }
+
+        .page-header a {
+            font-size: 1rem;
+            color: var(--tech-blue);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .skill-card {
+            background-color: #fdfdfd;
+            border: 1px solid rgba(201, 205, 212, 0.5);
+            border-radius: 8px;
+            padding: 25px;
+        }
+
+        .skill-card h3 {
+            color: var(--midnight-blue);
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            border-bottom: 2px solid var(--coral);
+            padding-bottom: 10px;
+        }
+
+        .skill-card ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+
+        .skill-card li {
+            margin-bottom: 8px;
+            color: #444;
+        }
+
+        footer {
+            background-color: var(--midnight-blue);
+            color: var(--smoke-grey);
+            text-align: center;
+            padding: 40px 0;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <h1>Johann Francisco Jara Sanchez</h1>
+            <h2>Staff Android Engineer | Kotlin | Jetpack Compose | Mobile Architecture</h2>
+
+            <div class="contact-info">
+                <a href="mailto:johannfjs@gmail.com"><i class="fas fa-envelope"></i> johannfjs@gmail.com</a>
+                <a href="tel:+51990870011"><i class="fas fa-phone"></i> (+51) 990 870 011</a>
+                <a href="https://github.com/johannfjs" target="_blank"><i class="fab fa-github"></i>
+                    github.com/johannfjs</a>
+                <a href="https://linkedin.com/in/johannfjs" target="_blank"><i class="fab fa-linkedin"></i>
+                    linkedin.com/in/johannfjs</a>
+            </div>
+            <div class="contact-info" style="margin-top: 10px;">
+                <a href="https://www.instagram.com/johannjara.dev/"><i class="fab fa-instagram"></i> @johannjara.dev</a>
+                <a href="https://www.tiktok.com/@johannjara.dev"><i class="fab fa-tiktok"></i> @johannjara.dev</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="page-header">
+            <h1>Detailed Technical Skills</h1>
+            <a href="index.html"><i class="fas fa-arrow-left"></i> Back to Summary</a>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Kotlin</li>
+                    <li>Java</li>
+                    <li>Groovy</li>
+                    <li>Objective-C</li>
+                    <li>Swift</li>
+                    <li>React</li>
+                    <li>C#</li>
+                    <li>.NET</li>
+                    <li>PHP</li>
+                    <li>Ruby</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Mobile Development</h3>
+                <ul>
+                    <li>Android: Jetpack (Compose, Architecture Components, Camera, Databinding, ViewBinding, DataStore,
+                        Navigation, Paging, Room, SQLite, ViewPager2, WorkManager)</li>
+                    <li>Retrofit</li>
+                    <li>GraphQL</li>
+                    <li>Firebase (Crashlytics, Realtime Database, Remote Config, Authentication, Cloud Firestore)</li>
+                    <li>Deeplinks</li>
+                    <li>Cross-platform & iOS: React, Swift, Objective-C</li>
+                    <li>SDK Development: Payment SDKs, Android Libraries, BLE (Bluetooth Low Energy) integrations</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Artificial Intelligence & Innovation</h3>
+                <ul>
+                    <li>OpenAI (ChatGPT APIs)</li>
+                    <li>Gemini</li>
+                    <li>Claude</li>
+                    <li>Cursor</li>
+                    <li>Kilo Code</li>
+                    <li>N8N</li>
+                    <li>Firebase ML Kit</li>
+                    <li>NLP</li>
+                    <li>Computer Vision</li>
+                    <li>Recommendation Systems</li>
+                    <li>Remote Config personalization</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Kotlin & Advanced Features</h3>
+                <ul>
+                    <li>Kotlin Coroutines</li>
+                    <li>Kotlin Flow</li>
+                    <li>Multimodule Architecture</li>
+                    <li>Extension Functions</li>
+                    <li>Generics</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Architecture & Patterns</h3>
+                <ul>
+                    <li>Clean Architecture</li>
+                    <li>SOLID Principles</li>
+                    <li>MVP, MVVM, MVI</li>
+                    <li>Repository Pattern</li>
+                    <li>Dependency Injection (Hilt, Dagger2, Koin)</li>
+                    <li>Design Patterns</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Databases</h3>
+                <ul>
+                    <li>SQLite</li>
+                    <li>Room</li>
+                    <li>SQLDelight</li>
+                    <li>Firebase Realtime Database</li>
+                    <li>Cloud Firestore</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Testing & QA</h3>
+                <ul>
+                    <li>JUnit</li>
+                    <li>MockK</li>
+                    <li>Mockito</li>
+                    <li>Robolectric</li>
+                    <li>Espresso</li>
+                    <li>CI/CD test automation</li>
+                    <li>Code Coverage Tools</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>DevOps & Tools</h3>
+                <ul>
+                    <li>Git, GitFlow</li>
+                    <li>CI/CD Pipelines</li>
+                    <li>Gradle (multimodule & version catalogs)</li>
+                    <li>Android Studio</li>
+                    <li>IntelliJ</li>
+                    <li>Visual Studio</li>
+                    <li>Postman</li>
+                    <li>Docker</li>
+                </ul>
+            </div>
+
+            <div class="skill-card">
+                <h3>Others</h3>
+                <ul>
+                    <li>Image & Media Handling (Glide, Picasso, Conviva)</li>
+                    <li>Cloud Services (AWS Amplify, Cognito)</li>
+                    <li>App Publishing (Google Play, Android TV)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Johann Francisco Jara Sanchez. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
